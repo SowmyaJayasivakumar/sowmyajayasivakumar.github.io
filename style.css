@@ -1,0 +1,227 @@
+html{
+    scroll-behavior: smooth;
+}
+.nav-style{
+    margin-left: 820px;
+}
+
+.brand-name{
+    font-weight:900;
+}
+
+.nav a{
+    text-decoration: none;
+}
+.home{
+    padding-top: 145px;
+}
+
+.me{
+    color: white;
+    font-size: 3rem;
+}
+
+.typed-out1{
+    overflow: hidden;
+    border-right: .15em solid rgb(216, 117, 173);
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing 2s steps(20, end) forwards,
+      blink .8s infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+}
+
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: transparent}
+}
+
+.typed-out2{
+    overflow: hidden;
+    border-right: .15em solid rgb(216, 117, 173);
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing 2s steps(20, end) 2s forwards,
+      blink .8s infinite;
+}
+
+.typed-out3{
+    overflow: hidden;
+    border-right: .15em solid rgb(216, 117, 173);
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing 2s steps(20, end) 4s forwards,
+      blink .8s infinite;
+}
+
+.typed-out4{
+    overflow: hidden;
+    border-right: .15em solid rgb(216, 117, 173);
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing 2s steps(20, end) 6s forwards,
+      blink .8s infinite;
+}
+
+
+
+
+.left-panel h1{
+    color: rgb(216, 117, 173);
+    font-size: 5rem;
+}
+
+.left-panel h3{
+    font-size: 3rem;
+}
+
+#myphoto{
+    height: 23rem;
+    border-radius: 100%;
+}
+
+.button{
+    text-decoration: none;
+    color: rgb(216, 117, 173);
+    border-color: rgb(216, 117, 173);
+}
+
+.about{
+    margin-top: 90px;
+}
+
+#about{
+    height: 18rem;
+    border-radius: 10% 20% 5% 40%;
+}
+
+#skills{
+    width: 30rem;
+    height: 17rem;
+}
+
+.python{
+    width: 80%;
+}
+.html5{
+    width: 90%;
+}
+.css{
+    width: 90%;
+}
+.django{
+    width: 50%;
+}
+.MySQL{
+    width: 70%;
+}
+.boots{
+    width: 75%;
+}
+.run{
+    animation: styling 6s ease-in;
+    animation-fill-mode: both;
+}
+
+@keyframes styling{
+    from{
+        width : 0%;
+    }
+}
+
+.project{
+    padding: 20px;
+    background: #2c2c6c;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 20rem;
+    height: 300px;
+    overflow: hidden;
+    margin: 1rem;
+    text-align: center;
+}
+
+.project h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.project p {
+    line-height: 20px;
+    font-size: .9rem;
+}
+
+.github-btn{
+    background-color:rgb(216, 117, 173);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.github-btn a{
+    color: #2c2c6c;
+    text-decoration: none;
+}
+
+.form-items{
+    background: transparent;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: .5rem;
+    width: 100%;
+    font-size: .9rem;
+    color: rgb(255, 255, 255);
+    margin: 0.5rem 0rem;
+    padding: 15px;
+}
+
+.form-button{
+    width: 150px;
+    padding: 15px;
+    background: transparent;
+    color: rgb(216, 117, 173);
+    border: 2px solid rgb(216, 117, 173);
+    border-radius: 15px;
+}
+
+footer{
+    background-color: black;
+    height: 180px;
+}
+
+.links{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.final{
+    font-weight: 100;
+    padding: 20px;
+}
+
+.italics{
+    color: rgb(216, 117, 173);
+}
+
+#about-p{
+    text-align: justify;
+}
