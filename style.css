@@ -225,3 +225,31 @@ footer{
 #about-p{
     text-align: justify;
 }
+
+/* Default styles (for desktops) */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 500px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 100%;
+        padding: 5px;
+    }
+}
